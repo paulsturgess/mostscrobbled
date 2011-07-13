@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artists user="timberford" page="1" perPage="50" totalPages="1" total="2">
+<artist>
+    <name>Bibio</name>
+    <playcount>391</playcount>
+    <tagcount>0</tagcount>
+    <mbid>9f9953f0-68bb-4ce3-aace-2f44c87f0aa3</mbid>
+    <url>http://www.last.fm/music/Bibio</url>
+    <streamable>1</streamable>
+    <image size="small">http://userserve-ak.last.fm/serve/34/27532381.jpg</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/27532381.jpg</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/27532381.jpg</image>
+    <image size="extralarge">http://userserve-ak.last.fm/serve/252/27532381.jpg</image>
+    <image size="mega">http://userserve-ak.last.fm/serve/500/27532381/Bibio+flap+flap.jpg</image>
+</artist>
+<artist>
+    <name>Bonobo</name>
+    <playcount>387</playcount>
+    <tagcount>0</tagcount>
+    <mbid>9a709693-b4f8-4da9-8cc1-038c911a61be</mbid>
+    <url>http://www.last.fm/music/Bonobo</url>
+    <streamable>1</streamable>
+    <image size="small">http://userserve-ak.last.fm/serve/34/53939783.png</image>
+    <image size="medium">http://userserve-ak.last.fm/serve/64/53939783.png</image>
+    <image size="large">http://userserve-ak.last.fm/serve/126/53939783.png</image>
+    <image size="extralarge">http://userserve-ak.last.fm/serve/252/53939783.png</image>
+    <image size="mega"></image>
+</artist>
+</artists></lfm>

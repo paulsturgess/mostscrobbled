@@ -1,0 +1,35 @@
+= Mostscrobbled
+
+Extracts the artists from a {last.fm}[http://last.fm] user's music library and turns them into nice ruby objects.
+
+{Official Documentation}[http://rubydoc.info/github/paulsturgess/mostscrobbled/master/]
+
+== Usage
+
+Before you start you'll need:
+* {A last.fm account}[http://last.fm]
+* {A last.fm api key}[http://last.fm/api]
+
+Example:
+
+  require 'rubygems'
+  require 'mostscrobbled'
+
+  # The main method call returns an array of artists ordered by the number of scrobbles
+  artists = Mostscrobbled.find(:username => "foobar", :api_key => "123abc")
+
+  my_favourite_artist = artists.first
+  
+  # Artists have a number of methods to easily access the attributes returned by the last.fm api
+  # For example...
+  my_favourite_artist.name         # => "Bibio"
+  my_favourite_artist.playcount    # => "391"
+  my_favourite_artist.url          # => "http://www.last.fm/music/Bibio"
+  my_favourite_artist.mbid         # => "9f9953f0-68bb-4ce3-aace-2f44c87f0aa3"
+  my_favourite_artist.image_small  # => "http://userserve-ak.last.fm/serve/34/39790231.jpg"
+
+	See the {documentation}[http://rubydoc.info/github/paulsturgess/mostscrobbled/master/Mostscrobbled/Artist] for the full list of methods
+
+== Installation
+
+  gem install mostscrobbled
