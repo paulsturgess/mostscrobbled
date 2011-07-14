@@ -2,7 +2,9 @@
 
 Extracts the artists from a {last.fm}[http://last.fm] user's music library and turns them into nice ruby objects.
 
-{Official Documentation}[http://rubydoc.info/github/paulsturgess/mostscrobbled/master/]
+* {Official Documentation}[http://rubydoc.info/gems/mostscrobbled/frames]
+* {Ruby Gems}[https://rubygems.org/gems/mostscrobbled]
+* {Github}[https://github.com/paulsturgess/mostscrobbled]
 
 == Usage
 
@@ -28,7 +30,7 @@ Example:
   my_favourite_artist.mbid         # => "9f9953f0-68bb-4ce3-aace-2f44c87f0aa3"
   my_favourite_artist.image_small  # => "http://userserve-ak.last.fm/serve/34/39790231.jpg"
 
-	See the {documentation}[http://rubydoc.info/github/paulsturgess/mostscrobbled/master/Mostscrobbled/Artist] for the full list of methods
+	See the {documentation}[http://rubydoc.info/gems/mostscrobbled/0.0.1/Mostscrobbled/Artist] for the full list of methods
 
 == Installation
 
