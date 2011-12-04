@@ -20,5 +20,10 @@ module Mostscrobbled
 			end
 		end
 		
+		# Returns a hash of all the attributes with their names as keys and the values of the attributes as values.
+		def attributes
+		  Hash[instance_variables.map { |name| [name[1..-1].to_sym, instance_variable_get(name)] }]
+		end
+		
 	end	
 end

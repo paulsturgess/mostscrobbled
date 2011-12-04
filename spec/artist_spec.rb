@@ -15,7 +15,11 @@ describe Mostscrobbled::Artist do
 		
 		it "should set the scrobbles_count" do
 			artist.playcount.should == 200
-		end		
+		end
+		
+		it "should be able to list the attributes as a hash" do
+		  artist.attributes.should == {:name => "Bibio", :mbid => "123", :playcount => 200}
+	  end
 	end
 	
 end
